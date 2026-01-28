@@ -6,3 +6,5 @@
 - 248 N 3rd Ave E. Ely MN
 
 [View flyer (PDF)](./SUN-JOE-and-CHARLIE.pdf)
+
+![QR Code](./qrcode.png)
