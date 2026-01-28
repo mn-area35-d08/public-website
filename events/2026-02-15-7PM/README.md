@@ -5,4 +5,4 @@
 - Northern Lights Club House
 - 248 N 3rd Ave E. Ely MN
 
-[View flyer (PDF)](events/2026-02-boundaries-workshop.pdf)
+[View flyer (PDF)](./SUN-JOE-and-CHARLIE.pdf)
