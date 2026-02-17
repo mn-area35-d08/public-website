@@ -1,0 +1,111 @@
+# REQ: If the website URL changes, update the link below and in the issue body.
+# REQ: When the web manager changes, update the assignee.
+# REQ: When tasks change, update the checklist items.
+
+name: Generate Weekly Website Issue (Task Automation)
+
+on:
+    schedule:
+        # Runs Monday 9:00 UTC (4 or 5 (DST) am Monday America/Chicago)
+        - cron: "0 9 * * 1"
+    workflow_dispatch: # Allow manual triggering from the Actions tab
+        inputs:
+            issue_date:
+                description: "Override date for issue title (YYYY-MM-DD). Leave blank to use today (UTC)."
+                required: false
+                default: ""
+
+permissions:
+    issues: write
+
+jobs:
+    # Create a new issue each week for the web manager to perform checks
+    create_weekly_issue:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Create weekly website check issue
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const owner = context.repo.owner;
+                      const repo = context.repo.repo;
+
+                      const overrideDate = core.getInput("issue_date");
+                      let yyyy, date;
+
+                      if (overrideDate && overrideDate.trim() !== "") {
+                        date = overrideDate.trim();
+                        const yearPart = date.split("-")[0];
+                        yyyy = parseInt(yearPart, 10);
+                        if (!Number.isFinite(yyyy)) {
+                          core.setFailed("Invalid issue_date year. Use YYYY-MM-DD.");
+                          return;
+                        }
+                      } else {
+                        const now = new Date();
+                        yyyy = now.getUTCFullYear();
+                        const mm = String(now.getUTCMonth() + 1).padStart(2, "0");
+                        const dd = String(now.getUTCDate()).padStart(2, "0");
+                        date = `${yyyy}-${mm}-${dd}`;
+                      }
+
+                      const milestoneTitle = `${yyyy} Website Checks`;
+
+                      async function getOrCreateMilestoneNumber() {
+                        const milestones = await github.rest.issues.listMilestones({
+                          owner,
+                          repo,
+                          state: "open",
+                          per_page: 100
+                        });
+
+                        const existing = milestones.data.find(m => m.title === milestoneTitle);
+                        if (existing) return existing.number;
+
+                        // Create the milestone if missing
+                        const dueOn = new Date(Date.UTC(yyyy, 11, 31, 23, 59, 59)).toISOString(); // Dec 31, 23:59:59 UTC
+
+                        const created = await github.rest.issues.createMilestone({
+                          owner,
+                          repo,
+                          title: milestoneTitle,
+                          due_on: dueOn,
+                          description: "Auto-created by workflow for weekly website check tracking."
+                        });
+
+                        return created.data.number;
+                      }
+
+                      const milestoneNumber = await getOrCreateMilestoneNumber();
+
+                      const title = `Weekly website check (${date})`;
+
+                      const body = [
+                        "Role: District 8 Web Manager",
+                        "Current assignee: @denisecase",
+                        "",
+                        "Direct link:",
+                        "https://eastrangedist8.com/",
+                        "",
+                        "Checklist:",
+                        "- [ ] Perform any needed updates to the site",
+                        "- [ ] Confirm homepage is current",
+                        "- [ ] Confirm supporting pages are current",
+                        "- [ ] Confirm events are correct",
+                        "- [ ] Remove or archive past events (as needed)",
+                        "- [ ] Check formatting",
+                        "- [ ] Quick scan for broken links",
+                        "- [ ] If fixes are needed, fix now or open a follow-up issue and link it here",
+                        "",
+                        "Expected time: 15-20 minutes"
+                      ].join("\n");
+
+                      await github.rest.issues.create({
+                        owner,
+                        repo,
+                        title,
+                        body,
+                        assignees: ["denisecase"],
+                        labels: ["weekly", "website-check"],
+                        milestone: milestoneNumber
+                      });
