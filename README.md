@@ -1,7 +1,5 @@
 # District 8: Supplemental Contents
 
-- [Sunday Feb 15 7 PM - Joe and Charlie](events/2026-02-15-7PM/SUN-JOE-and-CHARLIE.pdf)
-
 ## Main Website
 
 - [District 8](https://eastrangedist8.com/)
@@ -51,3 +49,4 @@
 ## Resources
 
 - [Generate QR Codes](https://denisecase.github.io/qr-gen/)
+
