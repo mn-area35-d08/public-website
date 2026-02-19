@@ -10,6 +10,13 @@
 
 ## Meeting Schedule
 
+District 8 holds:
+
+- Committee Meetings at 6:30 PM 
+- General District Committee Meeting at 7:00 pm.
+
+The location and day of the week changes monthly:
+
 | Date      | Host Group              | Address                             |
 | --------- | ----------------------- | ----------------------------------- |
 | FRI-01-09 | Pike Sandy              | Pike Town Hall County Rd. 68        |
