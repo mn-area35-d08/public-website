@@ -20,7 +20,7 @@ The location and day of the week changes monthly:
 | Date      | Host Group              | Address                             |
 | --------- | ----------------------- | ----------------------------------- |
 | FRI-01-09 | Pike Sandy              | Pike Town Hall County Rd. 68        |
-|           |                         | 6862 Co Hwy 68, Embarrass, MN 5573  |
+|           |                         | 6862 Co Hwy 68, Embarrass, MN 55732 |
 | MON-02-02 | Biwabik Sunday Night    | United Church of Christ             |
 |           |                         | 501 Main St, Biwabik, MN 55708      |
 | TUE-03-03 | Cook Sunday Night       | Trinity Luthern Church              |
