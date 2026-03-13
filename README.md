@@ -10,13 +10,20 @@
 
 ## Meeting Schedule
 
+District 8 holds:
+
+- Committee Meetings at 6:30 PM 
+- General District Committee Meeting at 7:00 pm.
+
+The location and day of the week changes monthly:
+
 | Date      | Host Group              | Address                             |
 | --------- | ----------------------- | ----------------------------------- |
 | FRI-01-09 | Pike Sandy              | Pike Town Hall County Rd. 68        |
-|           |                         | 6862 Co Hwy 68, Embarrass, MN 5573  |
+|           |                         | 6862 Co Hwy 68, Embarrass, MN 55732 |
 | MON-02-02 | Biwabik Sunday Night    | United Church of Christ             |
 |           |                         | 501 Main St, Biwabik, MN 55708      |
-| TUE-03-03 | Cook Sunday Night       | Trinity Luthern Church              |
+| TUE-03-03 | Cook Sunday Night       | Trinity Lutheran Church             |
 |           |                         | 231 2nd St E, Cook, MN 55723        |
 | WED-04-08 | Virginia Fri Night Open | St. Paul's Episcopal Church         |
 |           |                         | 231 3rd St S, Virginia, MN 55792    |
