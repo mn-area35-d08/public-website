@@ -6,7 +6,7 @@
 
 ## District Treasurer Reports
 
-- [treasurer/](./treasurer/index.md)
+- [treasurer/](./treasurer/)
 
 ## Meeting Schedule
 
