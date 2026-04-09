@@ -1,0 +1,392 @@
+# updates/meetings.toml
+# ============================================================
+# East Range D8 Weekly Meetings (ALWAYS CURRENT)
+# ============================================================
+# Instructions: 
+# To add a meeting: copy any [[meeting]] block and fill in.
+# To remove a meeting: delete the whole [[meeting]] block.
+#
+# "type" examples: "Open & HA", "Closed & HA", "Closed", "Open"
+# "day" must be one of: Sunday Monday Tuesday Wednesday Thursday Friday Saturday
+# ============================================================
+
+
+# ============================================================
+# Sunday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Sunday"
+time    = "1:00pm"
+name    = "Virginia As Bill Sees It"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Sunday"
+time    = "7:00pm"
+name    = "Cook Sunday Night Big Book"
+type    = "Closed & HA"
+venue   = "Trinity Lutheran Church"
+address = "231 2nd Street SE"
+city    = "Cook"
+state   = "MN"
+zip     = "55723"
+
+[[meeting]]
+day     = "Sunday"
+time    = "7:00pm"
+name    = "Biwabik Sunday Night"
+type    = "Closed & HA"
+venue   = "United Church of Christ"
+address = "501 Main St"
+city    = "Biwabik"
+state   = "MN"
+zip     = "55708"
+
+# ============================================================
+# Monday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Monday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Monday"
+time    = "Noon"
+name    = "Ely Women's"
+type    = "Open & HA"
+venue   = "LedgeRock Community Church"
+address = "1515 East Camp St"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+[[meeting]]
+day     = "Monday"
+time    = "7:00pm"
+name    = "Ely Miracle on Camp Street"
+type    = "Open & HA"
+venue   = "First Lutheran Church"
+address = "915 East Camp Street"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+[[meeting]]
+day     = "Monday"
+time    = "7:00pm"
+name    = "Virginia Mon. Night Big Book"
+type    = "Closed"
+venue   = "Hope Community Presbyterian Church"
+address = "212 South 5th Avenue"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Monday"
+time    = "7:00pm"
+name    = "Pike Sandy"
+type    = "Closed & HA"
+venue   = "Pike Town Hall"
+address = "6862 County Hwy 68"
+city    = "Embarrass"
+state   = "MN"
+zip     = "55732"
+
+[[meeting]]
+day     = "Monday"
+time    = "8:00pm"
+name    = "Hoyt Lakes AA"
+type    = "Open & HA"
+venue   = "Community Center"
+address = "206 Kennedy Memorial Drive"
+city    = "Hoyt Lakes"
+state   = "MN"
+zip     = "55750"
+
+# ============================================================
+# Tuesday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Tuesday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "11:00am"
+name    = "Aurora Big Book"
+type    = "Closed & HA"
+venue   = "United Methodist Church"
+address = "110 East 4th Ave North"
+city    = "Aurora"
+state   = "MN"
+zip     = "55705"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "7:00pm"
+name    = "Babbitt Tuesday Night"
+type    = "Open & HA"
+venue   = "Woodland Presbyterian"
+address = "20 Acacia Rd"
+city    = "Babbitt"
+state   = "MN"
+zip     = "55706"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "7:00pm"
+name    = "Gilbert Tuesday Night"
+type    = "Closed & HA"
+venue   = "St. Joseph's Church"
+address = "515 Summit St N"
+city    = "Gilbert"
+state   = "MN"
+zip     = "55741"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "7:00pm"
+name    = "Palo Tuesday Night"
+type    = "Closed & HA"
+venue   = "Loon Lake Community Center"
+address = "3816 Highway 100"
+city    = "Aurora"
+state   = "MN"
+zip     = "55705"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "7:00pm"
+name    = "Ely Men's Primary Purpose"
+type    = "Closed & HA"
+venue   = "First Presbyterian Church"
+address = "226 East Harvey St"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+[[meeting]]
+day     = "Tuesday"
+time    = "8:00pm"
+name    = "Orr Tuesday Night"
+type    = "Closed"
+venue   = "Holy Cross Church"
+address = "10696 Shady Grove Lane"
+city    = "Orr"
+state   = "MN"
+zip     = "55771"
+
+# ============================================================
+# Wednesday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Wednesday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Wednesday"
+time    = "7:00pm"
+name    = "Virginia Back to Basics"
+type    = "Closed & HA"
+venue   = "Peace United Methodist Church"
+address = "303 S 9th Ave W"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Wednesday"
+time    = "7:30pm"
+name    = "Ely Wednesday Night"
+type    = "Open & HA"
+venue   = "First Lutheran Church"
+address = "915 East Camp St"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+# ============================================================
+# Thursday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Thursday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Thursday"
+time    = "12 noon"
+name    = "Ely Noon Big Book"
+type    = "Open & HA"
+venue   = "St. Anthony's Church"
+address = "231 Camp Street"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+[[meeting]]
+day     = "Thursday"
+time    = "6:30pm"
+name    = "Lake Vermilion 12 X 12"
+type    = "Open & HA"
+venue   = "Immanuel Lutheran Church"
+address = "304 Spruce Street"
+city    = "Tower"
+state   = "MN"
+zip     = "55790"
+
+[[meeting]]
+day     = "Thursday"
+time    = "7:00pm"
+name    = "Aurora Big Book"
+type    = "Closed & HA"
+venue   = "Our Lady of Hope Catholic Church"
+address = "16 W 5th Ave N"
+city    = "Aurora"
+state   = "MN"
+zip     = "55705"
+
+[[meeting]]
+day     = "Thursday"
+time    = "7:00pm"
+name    = "Babbitt Back to Basics"
+type    = "Open & HA"
+venue   = "Woodland Presbyterian"
+address = "20 Acacia Rd"
+city    = "Babbitt"
+state   = "MN"
+zip     = "55706"
+
+[[meeting]]
+day     = "Thursday"
+time    = "7:00pm"
+name    = "Cotton Big Book"
+type    = "Closed & HA"
+venue   = "Cotton Community Center"
+address = "9087 Hwy US-53"
+city    = "Cotton"
+state   = "MN"
+zip     = "55724"
+
+[[meeting]]
+day     = "Thursday"
+time    = "7:00pm"
+name    = "Mountain Iron 12 X 12"
+type    = "Closed & HA"
+venue   = "Messiah Lutheran Church"
+address = "8590 Enterprise Drive South"
+city    = "Mountain Iron"
+state   = "MN"
+zip     = "55768"
+
+# ============================================================
+# Friday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Friday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Friday"
+time    = "7:00pm"
+name    = "Ely Happy, Joyous, & Free"
+type    = "Closed & HA"
+venue   = "First Presbyterian Church"
+address = "226 East Harvey St"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"
+
+[[meeting]]
+day     = "Friday"
+time    = "7:00pm"
+name    = "Alango Friday"
+type    = "Closed"
+venue   = "St. Paul's Lutheran Church"
+address = "9808 Hwy 22"
+city    = "Angora"
+state   = "MN"
+zip     = "55703"
+
+[[meeting]]
+day     = "Friday"
+time    = "7:00pm"
+name    = "Virginia Friday Night"
+type    = "Open & HA"
+venue   = "St. Paul's Episcopal Church"
+address = "231 3rd Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+# ============================================================
+# Saturday Meetings
+# ============================================================
+
+[[meeting]]
+day     = "Saturday"
+time    = "10:30am"
+name    = "Virginia 10:30am"
+type    = "Open & HA"
+venue   = "Our Savior's Lutheran Church"
+address = "1111 8th Street South"
+city    = "Virginia"
+state   = "MN"
+zip     = "55792"
+
+[[meeting]]
+day     = "Saturday"
+time    = "7:30pm"
+name    = "Ely Saturday Night"
+type    = "Open & HA"
+venue   = "First Lutheran Church"
+address = "915 East Camp St"
+city    = "Ely"
+state   = "MN"
+zip     = "55731"

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="stylesheet" href="../assets/css/pico.min.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="/images/favicon_io/site.webmanifest">
+  <meta name="theme-color" content="#1f4d7a">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="branding">
+        <a href="../" class="brand-link" aria-label="East Range, MN D8 AA home">
+          <img src="/images/favicon_io/android-chrome-192x192.png"
+               alt="East Range District 8 AA logo"
+               class="site-logo" width="64" height="64">
+          <div class="brand-text">
+            <h1>East Range, MN D8 AA</h1>
+            <p class="tagline">AA in East Range, MN</p>
+          </div>
+        </a>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <!-- Mobile -->
+        <details class="nav-toggle">
+          <summary role="button" class="secondary">Menu</summary>
+          <ul>
+            {{NAV_LINKS}}
+          </ul>
+        </details>
+        <!-- Desktop -->
+        <ul class="nav-wide">
+          {{NAV_LINKS}}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
