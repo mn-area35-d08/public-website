@@ -10,7 +10,27 @@
 
 }
 
+#resources ul,
+#general ul,
+#districts ul,
+#archives ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resources li::marker,
+#general li::marker,
+#districts li::marker,
+#archives li::marker {
+  content: none !important;
+}
+
 .container {
+  text-align: center;
   max-width: 960px;
     padding-left: 1rem;
   padding-right: 1rem;
@@ -174,8 +194,13 @@ section {
 
 .hero-actions {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.day-nav {
+  justify-content: center;
 }
 
 tr.past-event { display: none; }
