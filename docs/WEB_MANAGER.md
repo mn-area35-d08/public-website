@@ -52,8 +52,14 @@ those are overwritten every time the build runs.
 Requires [uv](https://docs.astral.sh/uv/) and Python 3.14.
 
 ```shell
+git pull # Always pull first
+
 uv python pin 3.14
 uv run python _build/build.py
+
+git add -A
+git commit -m "update"
+git push -u origin main
 ```
 
 Generated files are written to `meetings/index.html`, `events/index.html`,
