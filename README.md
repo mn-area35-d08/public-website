@@ -1,6 +1,8 @@
 # East Range, MN District 8 AA - Supplemental Public Website
 
-[![Build success](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml/badge.svg)](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml)
+[![Build success](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml)
+[![Link check](https://github.com/mn-area35-d08/public-website/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/links.yml)
+
 
 This is a free supplemental website for East Range District 8 AA.
 The main district website is at **[eastrangedist8.com](https://eastrangedist8.com/)**.
