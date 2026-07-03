@@ -18,23 +18,23 @@
 [[entry]]
 group = "District Officers"
 position = "DCM"
-name     = "Craig"
+name     = "DCM"
 email    = "dcm8@area35.org"
-phone    = "218-235-7490"
+phone    = "218-749-3387"
 
 [[entry]]
 group = "District Officers"
 position = "Alt. DCM"
-name     = "Tony"
-email    = "N/A"
-phone    = "218-994-6466"
+name     = "Alt. DCM"
+email    = "dist8altdcm@gmail.com"
+phone    = "218-749-3387"
 
 [[entry]]
 group    = "District Officers"
 position = "Secretary"
-name     = "Mary"
+name     = "Secretary"
 email    = "henlee728@gmail.com"
-phone    = "218-235-0958"
+phone    = "218-749-3387"
 notes    = "cell: 218-235-0958 / home: 218-753-2094"
 
 [[entry]]
@@ -42,7 +42,7 @@ group    = "District Officers"
 position = "Treasurer"
 name     = "Treasurer"
 email    = "dist8area35treasurer@gmail.com"
-phone    = "N/A"
+phone    = "218-749-3387"
 reports_url = "../treasurer/"
 
 [[entry]]
