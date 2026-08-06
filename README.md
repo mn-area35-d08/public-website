@@ -3,7 +3,6 @@
 [![Build success](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/build.yml)
 [![Link check](https://github.com/mn-area35-d08/public-website/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/links.yml)
 
-
 This is a free supplemental website for East Range District 8 AA.
 The main district website is at **[eastrangedist8.com](https://eastrangedist8.com/)**.
 
@@ -26,15 +25,15 @@ That helps when service positions turn over:
 
 Updates are mostly confined to these folders:
 
-| Folder | What it holds |
-| ------ | ------------- |
-| `treasurer/` | Treasurer reports (uploaded directly by treasurer) |
-| `updates/` | **Data files** - edit these to update meetings, events, and contacts |
+| Folder       | What it holds                                                        |
+| ------------ | -------------------------------------------------------------------- |
+| `treasurer/` | Treasurer reports (uploaded directly by treasurer)                   |
+| `updates/`   | **Data files** - edit these to update meetings, events, and contacts |
 
 ## How the Site Updates
 
-Meetings, events, and contact information are kept in the `updates/` folder. 
-After an update, an automatic process runs and updates the website. 
+Meetings, events, and contact information are kept in the `updates/` folder.
+After an update, an automatic process runs and updates the website.
 The badge at the top of this page shows whether the last automatic build
 succeeded (green) or failed (red).
 
