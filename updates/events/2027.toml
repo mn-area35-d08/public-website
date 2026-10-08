@@ -1,0 +1,68 @@
+# updates/events/2027.toml
+# ============================================================
+# East Range D8 AA Events 2027
+# ============================================================
+# Instructions:
+# To add a special event: copy a [[special]] block and fill in.
+# To add a district meeting: copy a [[district]] block and fill in.
+#
+# DATES: use YYYY-MM-DD format (e.g. 2027-04-30)
+# For multi-day events, add date_end = YYYY-MM-DD
+# Past events are hidden automatically; no need to delete them.
+#
+# Optional fields (leave out if not needed):
+#   date_end, flyer_url, flyer_back_url, map_url, info
+
+# ============================================================
+# Special Events
+# ============================================================
+
+[[special]]
+date_start = 2027-01-16
+date_end   = 2027-01-17
+time       = "Sat-Sun Workshop"
+name       = "Area 35 Winter Workshop"
+city       = "Alexandria"
+state      = "MN"
+
+[[special]]
+date_start = 2027-03-05
+date_end   = 2027-03-07
+time       = "Fri-Sun Conference"
+name       = "West Central Regional Service Conference"
+city       = "Breezy Point"
+state      = "MN"
+info       = "District 8 hospitality volunteers"
+
+[[special]]
+date_start = 2027-04-03
+date_end   = 2027-04-04
+time       = "Sat-Sun Assembly"
+name       = "Area 35 Spring Assembly"
+venue      = "Barker's Island Inn"
+city       = "Superior"
+state      = "WI"
+
+[[special]]
+date_start = 2027-04-30
+name       = "District 8 PI Luncheon"
+city       = "Mountain Iron"
+state      = "MN"
+
+[[special]]
+date_start = 2027-05-22
+name       = "Tri-District Workshop"
+venue      = "TBD"
+city       = "TBD"
+state      = "MN"
+info       = "Hosted by District 8"
+
+[[special]]
+date_start = 2027-06-12
+name       = "Founder's Day Celebration"
+info       = "Hosted by District 8"
+
+# ============================================================
+# District Monthly Meetings
+# ============================================================
+# Add [[district]] records as meeting dates are confirmed.

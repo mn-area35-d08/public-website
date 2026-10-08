@@ -57,8 +57,10 @@ state      = "MN"
 info       = "Any extra info here, or delete this line"
 ```
 
-6. Check that the date format is `YYYY-MM-DD` and all lines look correct.
-7. Click **Commit changes**, add a short note like `Add November speaker meeting`, and click **Commit**.
+Then:
+
+1. Check that the date format is `YYYY-MM-DD` and all lines look correct.
+2. Click **Commit changes**, add a short note like `Add November speaker meeting`, and click **Commit**.
 
 The event will appear on the website within about 30 seconds.
 Past events hide automatically; no need to delete them.

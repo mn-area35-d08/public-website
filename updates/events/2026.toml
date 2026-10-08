@@ -73,7 +73,7 @@ map_url    = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
 [[special]]
 date_start = 2026-10-03
 date_end   = 2026-10-04
-time       = "Assembly"
+time       = "Sat-Sun Assembly"
 name       = "Fall Assembly"
 venue      = "TBD"
 address    = ""
@@ -81,17 +81,25 @@ city       = ""
 state      = "MN"
 info       = "Flyer upcoming"
 
+[[special]]
+date_start = 2026-10-12
+name       = "Pike Sandy Open Speaker Meeting"
+venue      = "Pike Town Hall"
+address    = "6862 Co Hwy 68"
+city       = "Embarrass"
+state      = "MN"
+zip        = "55732"
+
 
 [[special]]
 date_start = 2026-12-06
 time       = "9:00am"
-name       = "Area 36 Committee Meeting"
+name       = "Area 35 Committee Meeting"
 venue      = "Aitkin Alano Club"
 address    = "322 1st Ave NE"
 city       = "Aitkin"
 state      = "MN"
-map_url    = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
-
+map_url    = "https://www.google.com/maps/place/Aitkin+Alano+Club/@46.5353395,-93.7075045,1201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52b13bfe65687153:0xf19cf40c61cc89e1!8m2!3d46.5353395!4d-93.7049296!16s%2Fg%2F11c5s2kg1c?entry=ttu"
 
 # ============================================================
 # District Monthly Meetings

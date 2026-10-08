@@ -2,122 +2,103 @@
 # ============================================================
 # East Range D8 AA Contact Us
 # ============================================================
-# To update a person: find their [[entry]] block and edit
-# the name, email, or phone fields.
+# To update a contact: edit the corresponding [[entry]] block.
+# Use "N/A" when an email is not available.
 #
-# To add a person: copy any [[entry]] block, change the
-# fields, and make sure "group" matches one of:
+# Groups:
 #   "District Officers"
 #   "District Chairs"
 #   "Web Managers"
-#
-# For no email or phone: use the value "N/A"
-# For a notes field (like "cell / home"): use notes = "..."
-# -------------------------------------------------------
+
+# ============================================================
+# District Officers
+# ============================================================
 
 [[entry]]
-group = "District Officers"
+group    = "District Officers"
 position = "DCM"
-name     = "DCM"
 email    = "dcm8@area35.org"
-phone    = "218-749-3387"
 
 [[entry]]
-group = "District Officers"
+group    = "District Officers"
 position = "Alt. DCM"
-name     = "Alt. DCM"
-email    = "dist8altdcm@gmail.com"
-phone    = "218-749-3387"
+email    = "spotts409@icloud.com"
 
 [[entry]]
-group    = "District Officers"
-position = "Secretary"
-name     = "Secretary"
-email    = "henlee728@gmail.com"
-phone    = "218-749-3387"
-notes    = "cell: 218-235-0958 / home: 218-753-2094"
+group       = "District Officers"
+position    = "Secretary"
+email       = "henlee728@gmail.com"
+reports_url = "../secretary/"
 
 [[entry]]
-group    = "District Officers"
-position = "Treasurer"
-name     = "Treasurer"
-email    = "dist8area35treasurer@gmail.com"
-phone    = "218-749-3387"
+group       = "District Officers"
+position    = "Treasurer"
+email       = "dist8area35treasurer@gmail.com"
 reports_url = "../treasurer/"
+
+# ============================================================
+# District Chairs
+# ============================================================
 
 [[entry]]
 group    = "District Chairs"
 position = "Archives"
-name     = "Amy"
-email    = "N/A"
-phone    = "651-260-2377"
+email    = "dist8area35archives@gmail.com"
 
 [[entry]]
 group    = "District Chairs"
 position = "Corrections"
-name     = "David"
-email    = "N/A"
-phone    = "218-410-6003"
+email    = "Swansond428@gmail.com"
 
 [[entry]]
 group    = "District Chairs"
 position = "Literature / Grapevine"
-name     = "Doug"
-email    = "N/A"
-phone    = "218-235-8123"
+email    = "dougscheibe@gmail.com"
 
 [[entry]]
 group    = "District Chairs"
 position = "PI / CPC"
-name     = "Lauren"
-email    = "N/A"
-phone    = "218-290-2681"
+email    = "lauren.jean.aho@gmail.com"
 
 [[entry]]
 group    = "District Chairs"
 position = "Treatment"
-name     = "John"
 email    = "N/A"
-phone    = "651-245-4164"
 
 [[entry]]
 group    = "District Chairs"
 position = "Alt. Treatment"
-name     = "Nick"
-email    = "N/A"
-phone    = "612-590-6685"
+email    = "dunnomnick@gmail.com"
 
 [[entry]]
 group    = "District Chairs"
 position = "Web Manager"
-name     = "Web Manager"
 email    = "dist8area35webmanager@gmail.com"
-phone    = "N/A"
+
+# ============================================================
+# Web Managers
+# ============================================================
 
 [[entry]]
 group    = "Web Managers"
 position = "East Range Web Manager"
 name     = "Web Manager"
 email    = "dist8area35webmanager@gmail.com"
-phone    = "N/A"
 
 [[entry]]
 group    = "Web Managers"
 position = "Hibbing Web Manager"
 name     = "Phyllis"
 email    = "N/A"
-phone    = "(218) 969-7365"
 
 [[entry]]
 group    = "Web Managers"
 position = "Committee Member"
 name     = "Brandon"
 email    = "N/A"
-phone    = "(713) 553-4688"
 
 [[entry]]
 group    = "Web Managers"
 position = "Committee Member"
 name     = "Diane"
-email    = "diane@eastrangedist8.com"
-phone    = "(218) 929-7846"
+email    = "dianer@northlc.com"
