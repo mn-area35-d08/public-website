@@ -1,0 +1,440 @@
+[1mdiff --git a/contact/index.html b/contact/index.html[m
+[1mindex fbda392..68338b3 100644[m
+[1m--- a/contact/index.html[m
+[1m+++ b/contact/index.html[m
+[36m@@ -81,25 +81,35 @@[m
+           <thead>[m
+             <tr>[m
+               <th scope="col">Position</th>[m
+[32m+[m[32m              <th scope="col">Name</th>[m
+               <th scope="col">Email</th>[m
+[32m+[m[32m              <th scope="col">Phone</th>[m
+             </tr>[m
+           </thead>[m
+           <tbody>[m
+                         <tr>[m
+               <td>DCM</td>[m
+[32m+[m[32m              <td></td>[m
+               <td><a href="mailto:dcm8@area35.org">dcm8@area35.org</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Alt. DCM</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:spotts409@icloud.com">spotts409@icloud.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Secretary (<a href="../secretary/">reports</a>)</td>[m
+[32m+[m[32m              <td></td>[m
+               <td><a href="mailto:henlee728@gmail.com">henlee728@gmail.com</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Treasurer (<a href="../treasurer/">reports</a>)</td>[m
+[32m+[m[32m              <td></td>[m
+               <td><a href="mailto:dist8area35treasurer@gmail.com">dist8area35treasurer@gmail.com</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+           </tbody>[m
+         </table>[m
+[36m@@ -116,37 +126,53 @@[m
+           <thead>[m
+             <tr>[m
+               <th scope="col">Position</th>[m
+[32m+[m[32m              <th scope="col">Name</th>[m
+               <th scope="col">Email</th>[m
+[32m+[m[32m              <th scope="col">Phone</th>[m
+             </tr>[m
+           </thead>[m
+           <tbody>[m
+                         <tr>[m
+               <td>Archives</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:dist8area35archives@gmail.com">dist8area35archives@gmail.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Corrections</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:Swansond428@gmail.com">Swansond428@gmail.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Literature / Grapevine</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:dougscheibe@gmail.com">dougscheibe@gmail.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>PI / CPC</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:lauren.jean.aho@gmail.com">lauren.jean.aho@gmail.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Treatment</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Alt. Treatment</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m              <td><a href="mailto:dunnomnick@gmail.com">dunnomnick@gmail.com</a></td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Web Manager</td>[m
+[32m+[m[32m              <td></td>[m
+               <td><a href="mailto:dist8area35webmanager@gmail.com">dist8area35webmanager@gmail.com</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+           </tbody>[m
+         </table>[m
+[36m@@ -163,25 +189,35 @@[m
+           <thead>[m
+             <tr>[m
+               <th scope="col">Position</th>[m
+[32m+[m[32m              <th scope="col">Name</th>[m
+               <th scope="col">Email</th>[m
+[32m+[m[32m              <th scope="col">Phone</th>[m
+             </tr>[m
+           </thead>[m
+           <tbody>[m
+                         <tr>[m
+               <td>East Range Web Manager</td>[m
+[32m+[m[32m              <td>Web Manager</td>[m
+               <td><a href="mailto:dist8area35webmanager@gmail.com">dist8area35webmanager@gmail.com</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Hibbing Web Manager</td>[m
+[32m+[m[32m              <td>Phyllis</td>[m
+[32m+[m[32m              <td>N/A</td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Committee Member</td>[m
+[32m+[m[32m              <td>Brandon</td>[m
+[32m+[m[32m              <td>N/A</td>[m
+               <td>N/A</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Committee Member</td>[m
+[31m-              <td><a href="mailto:diane@eastrangedist8.com">diane@eastrangedist8.com</a></td>[m
+[32m+[m[32m              <td>Diane</td>[m
+[32m+[m[32m              <td><a href="mailto:dianer@northlc.com">dianer@northlc.com</a></td>[m
+[32m+[m[32m              <td>N/A</td>[m
+             </tr>[m
+           </tbody>[m
+         </table>[m
+[1mdiff --git a/events/index.html b/events/index.html[m
+[1mindex 73e6422..e2aba79 100644[m
+[1m--- a/events/index.html[m
+[1m+++ b/events/index.html[m
+[36m@@ -1,6 +1,5 @@[m
+ <!doctype html>[m
+ <html lang="en">[m
+[31m-[m
+ <head>[m
+   <meta charset="utf-8">[m
+   <meta name="viewport" content="width=device-width, initial-scale=1">[m
+[36m@@ -15,7 +14,6 @@[m
+   <link rel="manifest" href="../assets/images/favicon_io/site.webmanifest">[m
+   <meta name="theme-color" content="#1f4d7a">[m
+ </head>[m
+[31m-[m
+ <body>[m
+   <a class="skip-link" href="#main">Skip to content</a>[m
+ [m
+[36m@@ -23,8 +21,9 @@[m
+     <div class="container">[m
+       <div class="branding">[m
+         <a href="../" class="brand-link" aria-label="East Range, MN D8 AA home">[m
+[31m-          <img src="../assets/images/favicon_io/android-chrome-192x192.png" alt="East Range District 8 AA logo"[m
+[31m-            class="site-logo" width="64" height="64">[m
+[32m+[m[32m          <img src="../assets/images/favicon_io/android-chrome-192x192.png"[m
+[32m+[m[32m               alt="East Range District 8 AA logo"[m
+[32m+[m[32m               class="site-logo" width="64" height="64">[m
+           <div class="brand-text">[m
+             <h1>East Range, MN D8 AA</h1>[m
+             <p class="tagline">AA in East Range, MN</p>[m
+[36m@@ -49,22 +48,21 @@[m
+         <!-- Desktop -->[m
+         <ul class="nav-wide">[m
+           <li><a href="../">Home</a></li>[m
+[31m-          <li><a href="../meetings/">Meetings</a></li>[m
+[31m-          <li><a href="../events/" aria-current="page">Events</a></li>[m
+[31m-          <li><a href="../resources/">Resources</a></li>[m
+[31m-          <li><a href="../forms/">Forms</a></li>[m
+[31m-          <li><a href="../contact/">Contact Us</a></li>[m
+[31m-          <li><a href="../contribute/">Contribute to AA</a></li>[m
+[32m+[m[32m            <li><a href="../meetings/">Meetings</a></li>[m
+[32m+[m[32m            <li><a href="../events/" aria-current="page">Events</a></li>[m
+[32m+[m[32m            <li><a href="../resources/">Resources</a></li>[m
+[32m+[m[32m            <li><a href="../forms/">Forms</a></li>[m
+[32m+[m[32m            <li><a href="../contact/">Contact Us</a></li>[m
+[32m+[m[32m            <li><a href="../contribute/">Contribute to AA</a></li>[m
+         </ul>[m
+       </nav>[m
+     </div>[m
+   </header>[m
+ [m
+[31m-  <main id="main" class="container">[m
+[31m-    <header class="page-header">[m
+[32m+[m[32m  <main id="main" class="container"><header class="page-header">[m
+       <h1>East Range AA Events</h1>[m
+       <p>District meetings and special events in chronological order.[m
+[31m-        Past events are hidden automatically — they remain in the data file as a record.</p>[m
+[32m+[m[32m         Past events are hidden automatically — they remain in the data file as a record.</p>[m
+     </header>[m
+ [m
+     <section id="events">[m
+[36m@@ -81,86 +79,179 @@[m
+             </tr>[m
+           </thead>[m
+           <tbody>[m
+[32m+[m[32m                        <tr class="past-event">[m
+[32m+[m[32m              <td>Fri Jan 9, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Pike Sandy Hosting</td>[m
+[32m+[m[32m              <td>Pike Town Hall<br>6862 Co Hwy 68<br>Embarrass, MN 55732[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/otKRhY1yy4pJifCy6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Mon Feb 2, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Biwabik Sunday Night Hosting</td>[m
+[32m+[m[32m              <td>United Church of Christ<br>501 Main St<br>Biwabik, MN 55708[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/MGNs1tQksocr5tcTA" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Tue Mar 3, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Cook Sunday Night Hosting</td>[m
+[32m+[m[32m              <td>Trinity Lutheran Church<br>231 2nd St E<br>Cook, MN 55723[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/EDCQDGU3FS7kETDF9" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Wed Apr 8, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Virginia Friday Night Open Hosting</td>[m
+[32m+[m[32m              <td>St. Paul's Episcopal Church<br>231 3rd St S<br>Virginia, MN 55792[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Sat Apr 11, 2026</td>[m
+[32m+[m[32m              <td>7pm Speaker</td>[m
+[32m+[m[32m              <td>Gilbert Tues Night Open Mtg - Celebrating 44th Year</td>[m
+[32m+[m[32m              <td>St. Joseph's Catholic Church<br>Summit &amp; Louisiana<br>Gilbert, MN</td>[m
+[32m+[m[32m              <td>Treats before, during &amp; after</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Fri-Sat Apr 24-25, 2026</td>[m
+[32m+[m[32m              <td>Fri ~5pm–10pm / Sat ~9:30am–8pm</td>[m
+[32m+[m[32m              <td>1st Annual Came to Believe Big Book Workshop</td>[m
+[32m+[m[32m              <td>Lake Place Foundation<br>25704 CR 338<br>Bovey, MN 55709</td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Fri-Sat May 1-2, 2026</td>[m
+[32m+[m[32m              <td>5pm</td>[m
+[32m+[m[32m              <td>54th Annual Iron Range Get Together</td>[m
+[32m+[m[32m              <td>Red Rock Inn<br>1402 East Howard<br>Hibbing, MN</td>[m
+[32m+[m[32m              <td><a href="https://eastrangedist8.com/wp-content/uploads/2026/01/Scan2026-01-11_112222.pdf" target="_blank" rel="noopener noreferrer">Flyer Front</a><br><a href="https://eastrangedist8.com/wp-content/uploads/2026/01/Scan2026-01-11_112810.pdf" target="_blank" rel="noopener noreferrer">Flyer Back</a></td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Thu May 7, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Ely Happy, Joyous &amp; Free Hosting</td>[m
+[32m+[m[32m              <td>First Presbyterian Church<br>226 E Harvey St<br>Ely, MN 55731[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/TDRmFuT5mg97UQR59" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Sun Jun 7, 2026</td>[m
+[32m+[m[32m              <td>9:00am</td>[m
+[32m+[m[32m              <td>Area 36 Committee Meeting</td>[m
+[32m+[m[32m              <td>Aitkin Alano Club<br>322 1st Ave NE<br>Aitkin, MN[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/otKRhY1yy4pJifCy6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Fri Jun 12, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Ely Monday Women's Hosting</td>[m
+[32m+[m[32m              <td>LedgeRock Community Church<br>1515 E Camp St<br>Ely, MN 55731[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/K3CqdLvKVLuaQB679" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Mon Jul 6, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Virginia Back to Basics Hosting</td>[m
+[32m+[m[32m              <td>Peace United Methodist Church<br>303 S 9th Ave W<br>Virginia, MN 55792[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/knTNi4tG57swtMXK6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Sun Aug 2, 2026</td>[m
+[32m+[m[32m              <td>9:00am</td>[m
+[32m+[m[32m              <td>Area 36 Committee Meeting</td>[m
+[32m+[m[32m              <td>Aitkin Alano Club<br>322 1st Ave NE<br>Aitkin, MN[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/otKRhY1yy4pJifCy6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td></td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Tue Aug 4, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Virginia Friday Night Open Hosting</td>[m
+[32m+[m[32m              <td>St. Paul's Episcopal Church<br>231 3rd St S<br>Virginia, MN 55792[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+[32m+[m[32m            <tr class="past-event">[m
+[32m+[m[32m              <td>Wed Sep 9, 2026</td>[m
+[32m+[m[32m              <td>District Mtg</td>[m
+[32m+[m[32m              <td>Gilbert Tuesday Night Hosting</td>[m
+[32m+[m[32m              <td>St. Joseph's Catholic Church<br>515 Summit St N<br>Gilbert, MN 55741[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/Y8LiQS1t8J6YGqUo9" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+[32m+[m[32m              <td>Committee 6:30 PM / General 7:00 PM</td>[m
+[32m+[m[32m            </tr>[m
+             <tr class="past-event">[m
+               <td>Sat-Sun Oct 3-4, 2026</td>[m
+[31m-              <td>Assembly</td>[m
+[32m+[m[32m              <td>Sat-Sun Assembly</td>[m
+               <td>Fall Assembly</td>[m
+[31m-              <td></td>[m
+[32m+[m[32m              <td>MN</td>[m
+               <td>Flyer upcoming</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Thu Oct 8, 2026</td>[m
+               <td>District Mtg</td>[m
+[31m-              <td>Virginia Friday Night Hosting</td>[m
+[31m-              <td>[m
+[31m-                St. Paul's Episcopal Church<br>[m
+[31m-                231 3rd St S<br>[m
+[31m-                Virginia, MN 55792<br>[m
+[31m-                <a href="https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6" target="_blank" rel="noopener noreferrer">Map</a>[m
+[31m-              </td>[m
+[32m+[m[32m              <td>Virginia Friday Night Open Hosting</td>[m
+[32m+[m[32m              <td>St. Paul's Episcopal Church<br>231 3rd St S<br>Virginia, MN 55792[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+               <td>Committee 6:30 PM / General 7:00 PM</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Mon Oct 12, 2026</td>[m
+               <td></td>[m
+               <td>Pike Sandy Open Speaker Meeting</td>[m
+[31m-              <td></td>[m
+[32m+[m[32m              <td>Pike Town Hall<br>6862 Co Hwy 68<br>Embarrass, MN 55732</td>[m
+               <td></td>[m
+             </tr>[m
+             <tr>[m
+               <td>Fri Nov 6, 2026</td>[m
+               <td>District Mtg</td>[m
+               <td>Aurora Big Book Hosting</td>[m
+[31m-              <td>TBD</td>[m
+[32m+[m[32m              <td>MN</td>[m
+               <td>Committee 6:30 PM / General 7:00 PM</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Sun Dec 6, 2026</td>[m
+[31m-              <td>9:00 AM</td>[m
+[32m+[m[32m              <td>9:00am</td>[m
+               <td>Area 35 Committee Meeting</td>[m
+[31m-              <td>[m
+[31m-                Aitkin Alano Club<br>[m
+[31m-                322 1st Ave NE<br>[m
+[31m-                Aitkin, MN<br>[m
+[31m-                <a href="https://www.google.com/maps/place/Aitkin+Alano+Club/@46.5353395,-93.7075045,1201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52b13bfe65687153:0xf19cf40c61cc89e1!8m2!3d46.5353395!4d-93.7049296!16s%2Fg%2F11c5s2kg1c?entry=ttu"[m
+[31m-                  target="_blank" rel="noopener noreferrer">Map</a>[m
+[31m-              </td>[m
+[32m+[m[32m              <td>Aitkin Alano Club<br>322 1st Ave NE<br>Aitkin, MN[m
+[32m+[m[32m              <a href="https://www.google.com/maps/place/Aitkin+Alano+Club/@46.5353395,-93.7075045,1201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52b13bfe65687153:0xf19cf40c61cc89e1!8m2!3d46.5353395!4d-93.7049296!16s%2Fg%2F11c5s2kg1c?entry=ttu" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+               <td></td>[m
+             </tr>[m
+             <tr>[m
+               <td>Mon Dec 7, 2026</td>[m
+               <td>District Mtg</td>[m
+[31m-              <td>Lake Vermilion 12 X 12 Hosting</td>[m
+[31m-              <td>[m
+[31m-                Immanuel Lutheran<br>[m
+[31m-                304 Spruce St<br>[m
+[31m-                Tower, MN 55790<br>[m
+[31m-                <a href="https://maps.app.goo.gl/tk9CUiz9yjd6V42N9" target="_blank" rel="noopener noreferrer">Map</a>[m
+[31m-              </td>[m
+[32m+[m[32m              <td>Lake Vermilion 12×12 Hosting</td>[m
+[32m+[m[32m              <td>Immanuel Lutheran<br>304 Spruce St<br>Tower, MN 55790[m
+[32m+[m[32m              <a href="https://maps.app.goo.gl/tk9CUiz9yjd6V42N9" target="_blank" rel="noopener noreferrer">Map</a></td>[m
+               <td>Committee 6:30 PM / General 7:00 PM</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Sat-Sun Jan 16-17, 2027</td>[m
+[31m-              <td>Workshop</td>[m
+[32m+[m[32m              <td>Sat-Sun Workshop</td>[m
+               <td>Area 35 Winter Workshop</td>[m
+[31m-              <td>Alexandria</td>[m
+[32m+[m[32m              <td>Alexandria, MN</td>[m
+               <td></td>[m
+             </tr>[m
+             <tr>[m
+               <td>Fri-Sun Mar 5-7, 2027</td>[m
+[31m-              <td>Conference</td>[m
+[32m+[m[32m              <td>Fri-Sun Conference</td>[m
+               <td>West Central Regional Service Conference</td>[m
+[31m-              <td>Breezy Point</td>[m
+[32m+[m[32m              <td>Breezy Point, MN</td>[m
+               <td>District 8 hospitality volunteers</td>[m
+             </tr>[m
+             <tr>[m
+               <td>Sat-Sun Apr 3-4, 2027</td>[m
+[31m-              <td>Assembly</td>[m
+[32m+[m[32m              <td>Sat-Sun Assembly</td>[m
+               <td>Area 35 Spring Assembly</td>[m
+[31m-              <td>[m
+[31m-                Barker's Island Inn<br>[m
+[31m-                Superior, WI[m
+[31m-              </td>[m
+[32m+[m[32m              <td>Barker's Island Inn<br>Superior, WI</td>[m
+               <td></td>[m
+             </tr>[m
+             <tr>[m
+[36m@@ -174,27 +265,25 @@[m
+               <td>Sat May 22, 2027</td>[m
+               <td></td>[m
+               <td>Tri-District Workshop</td>[m
+[32m+[m[32m              <td>TBD, MN</td>[m
+               <td>Hosted by District 8</td>[m
+[31m-              <td></td>[m
+             </tr>[m
+             <tr>[m
+               <td>Sat Jun 12, 2027</td>[m
+               <td></td>[m
+               <td>Founder's Day Celebration</td>[m
+[32m+[m[32m              <td>TBD</td>[m
+               <td>Hosted by District 8</td>[m
+[31m-              <td></td>[m
+             </tr>[m
+           </tbody>[m
+         </table>[m
+       </div>[m
+       <p><small>District meetings: Committee Meeting 6:30 PM / General District Meeting 7:00 PM.</small></p>[m
+[31m-    </section>[m
+[31m-  </main>[m
+[32m+[m[32m    </section></main>[m
+ [m
+   <footer class="site-footer container">[m
+     <p>&copy; 2026 East Range, MN D8 AA</p>[m
+     <p><a href="../">Home</a></p>[m
+   </footer>[m
+ </body>[m
+[31m-[m
+ </html>[m
+\ No newline at end of file[m
