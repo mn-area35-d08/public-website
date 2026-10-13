@@ -183,7 +183,7 @@ address = "231 3rd St S"
 city    = "Virginia"
 state   = "MN"
 zip     = "55792"
-map_url = "https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6"
+map_url = "https://www.google.com/maps/place/St+Paul's+Episcopal+Church/@47.5206368,-92.53693,885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a55095bfd182e9:0x9d20576bfe5cbf63!8m2!3d47.5206368!4d-92.5343551!16s%2Fg%2F1tk1ypd9?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
 date    = 2026-09-09
@@ -193,7 +193,7 @@ address = "515 Summit St N"
 city    = "Gilbert"
 state   = "MN"
 zip     = "55741"
-map_url = "https://maps.app.goo.gl/Y8LiQS1t8J6YGqUo9"
+map_url = "https://www.google.com/maps/place/St+Joseph's+Church/@47.4843957,-92.4766922,885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a5599e7316dfcd:0xf25b8484951095b!8m2!3d47.4843957!4d-92.4741173!16s%2Fg%2F1tcykpb9?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
 date    = 2026-10-08
@@ -203,22 +203,24 @@ address = "231 3rd St S"
 city    = "Virginia"
 state   = "MN"
 zip     = "55792"
-map_url = "https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6"
+map_url = "https://www.google.com/maps/search/St+Paul's+Episcopal+Church/@47.1614308,-92.6349037,114003m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
 date    = 2026-11-06
 host    = "Aurora Big Book"
-venue   = "TBD"
-address = ""
-city    = ""
+venue   = "Community United Methodist Church"
+address = "110 East 4th Avenue North"
+city    = "Aurora"
 state   = "MN"
+zip     = "55705"
+map_url = "https://www.google.com/maps/place/United+Methodist+Church-Aurora/@47.5311221,-92.2349387,884m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a56446d7d6f251:0x36320934da06a3bd!8m2!3d47.5311221!4d-92.2349387!16s%2Fg%2F1tdykvw4?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
 date    = 2026-12-07
-host    = "Lake Vermilion 12×12"
+host    = "Lake Vermilion 12x12"
 venue   = "Immanuel Lutheran"
 address = "304 Spruce St"
 city    = "Tower"
 state   = "MN"
 zip     = "55790"
-map_url = "https://maps.app.goo.gl/tk9CUiz9yjd6V42N9"
+map_url = "https://www.google.com/maps/place/Immanuel+Lutheran+Church/@47.8059533,-92.2773465,880m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a513f0e0611a89:0x992fc4696855e01!8m2!3d47.8059533!4d-92.2747716!16s%2Fg%2F1wt3n175?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"

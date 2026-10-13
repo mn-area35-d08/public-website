@@ -382,6 +382,17 @@ zip     = "55792"
 
 [[meeting]]
 day     = "Saturday"
+time    = "7:00pm"
+name    = "3 Legacies"
+type    = "N/A"
+venue   = "United in Christ Lutheran Church"
+address = "201 Station 44 Road"
+city    = "Eveleth"
+state   = "MN"
+zip     = "55734"
+
+[[meeting]]
+day     = "Saturday"
 time    = "7:30pm"
 name    = "Ely Saturday Night"
 type    = "Open & HA"
