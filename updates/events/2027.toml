@@ -18,12 +18,25 @@
 # ============================================================
 
 [[special]]
+date_start = 2027-01-09
+date_end   = 2027-01-09
+time       = "7:00 pm"
+name       = "Cook Sunday Night Big Book Open Speaker Meeting"
+venue      = "Trinity Lutheran Church"
+address    = "231 2nd Street S.E."
+city       = "Cook"
+state      = "MN"
+zip        = "55723"
+flyer_url = "events/2027-01-09-cook-open-7PM/AA_OPEN_SPEAKER_MEETING_flyer_2027.pdf"
+
+[[special]]
 date_start = 2027-01-16
 date_end   = 2027-01-17
 time       = "Sat-Sun Workshop"
 name       = "Area 35 Winter Workshop"
 city       = "Alexandria"
 state      = "MN"
+flyer_url      = "events/2027-01-09-cook-open-7PM/AA_OPEN_SPEAKER_MEETING_flyer_2027.pdf"
 
 [[special]]
 date_start = 2027-03-05
