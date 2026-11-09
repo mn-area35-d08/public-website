@@ -11,7 +11,7 @@
 # OBS: This requires editing files in the repo and 
 #      therefore additional security measures are required.
 
-# REQ: Uses the organization's shared GITHUB_ACTION_UPDATE_TOKEN key.
+# REQ: Uses the organization's shared ACTION_UPDATE_TOKEN key.
 # REQ: The key must be renewed before it expires.
 
 # OBS: A fine-grained personal access token belongs to the GitHub account (e.g. Web Manager)that creates it. 
@@ -35,7 +35,7 @@
 # HOW: Web Manager will save it as an organization secret:
 #   1. Open github.com/organizations/mn-area35-d08/settings/secrets/actions.
 #   2. Click New organization secret.
-#   3. Name: GITHUB_ACTION_UPDATE_TOKEN
+#   3. Name: ACTION_UPDATE_TOKEN
 #   4. Value: Paste the generated token.
 #   5. Repository access: Public repositories.
 #   6. Click Add secret.
@@ -77,7 +77,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           ref: main
-          token: ${{ secrets.GITHUB_ACTION_UPDATE_TOKEN }}
+          token: ${{ secrets.ACTION_UPDATE_TOKEN }}
         # WHY: Use organization token to update workflow files.
 
       - name: A2) Install uv
