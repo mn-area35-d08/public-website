@@ -1,7 +1,7 @@
 # East Range, MN District 8 AA - Supplemental Public Website
 
-[![Build success](https://github.com/mn-area35-d08/public-website/actions/workflows/build-website.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/build-website.yml)
-[![Link checks](https://github.com/mn-area35-d08/public-website/actions/workflows/check-links.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/check-links.yml)
+[![Update Website](https://github.com/mn-area35-d08/public-website/actions/workflows/update-website.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/update-website.yml)
+[![Check Links](https://github.com/mn-area35-d08/public-website/actions/workflows/check-links.yml/badge.svg?branch=main)](https://github.com/mn-area35-d08/public-website/actions/workflows/check-links.yml)
 
 This is a free website for East Range District 8 AA.
 The paid website is at **[eastrangedist8.com](https://eastrangedist8.com/)**.
@@ -85,7 +85,7 @@ Upload PDF reports directly to that folder through the GitHub web interface:
 
 The file will be linked from the treasurer page automatically.
 
-## District Monthly Meetings
+## 2026 District Monthly Meetings
 
 District 8 holds a **Committee Meeting at 6:30 PM** followed by the
 **General District Committee Meeting at 7:00 PM**.
