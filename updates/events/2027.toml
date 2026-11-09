@@ -99,3 +99,153 @@ flyer_url = "https://github.com/mn-area35-d08/public-website/blob/main/events/20
 # District Monthly Meetings
 # ============================================================
 # Add [[district]] records as meeting dates are confirmed.
+
+[[district]]
+date = 2027-01-05
+host = "TBD"
+venue = "TBD"
+address = "TBD"
+city = ""
+state = "MN"
+zip = ""
+map_url = ""
+
+[[district]]
+date = 2027-02-03
+host = "Ely Monday Women's"
+venue = "LedgeRock Community Church"
+address = "1515 E Camp St"
+city = "Ely"
+state = "MN"
+zip = "55731"
+map_url = "https://maps.app.goo.gl/K3CqdLvKVLuaQB679"
+
+[[district]]
+date = 2027-03-04
+host = "Cook Sunday Night"
+venue = "Trinity Lutheran Church"
+address = "231 2nd St E"
+city = "Cook"
+state = "MN"
+zip = "55723"
+map_url = "https://maps.app.goo.gl/EDCQDGU3FS7kETDF9"
+
+[[district]]
+date = 2027-04-12
+host = "Ely Happy, Joyous & Free"
+venue = "First Presbyterian Church"
+address = "226 E Harvey St"
+city = "Ely"
+state = "MN"
+zip = "55731"
+map_url = "https://maps.app.goo.gl/TDRmFuT5mg97UQR59"
+
+
+[[district]]
+date = 2027-05-03
+host = "Gilbert Tuesday Night"
+venue = "St. Joseph's Catholic Church"
+address = "515 Summit St N"
+city = "Gilbert"
+state = "MN"
+zip = "55741"
+map_url = "https://www.google.com/maps/place/St+Joseph's+Church/@47.4843957,-92.4766922,885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a5599e7316dfcd:0xf25b8484951095b!8m2!3d47.4843957!4d-92.4741173!16s%2Fg%2F1tcykpb9?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+
+
+[[district]]
+date = 2027-06-01
+host = "TBD"
+venue = "TBD"
+address = "TBD"
+city = ""
+state = "MN"
+zip = ""
+map_url = ""
+
+[[district]]
+date = 2027-07-07
+host = "TBD"
+venue = "TBD"
+address = "TBD"
+city = ""
+state = "MN"
+zip = ""
+map_url = ""
+
+
+[[district]]
+date = 2027-08-05
+host = "Virginia Back to Basics"
+venue = "Peace United Methodist Church"
+address = "303 S 9th Ave W"
+city = "Virginia"
+state = "MN"
+zip = "55792"
+map_url = "https://maps.app.goo.gl/knTNi4tG57swtMXK6"
+
+
+[[district]]
+date = 2027-09-03
+host = "TBD"
+venue = "TBD"
+address = "TBD"
+city = ""
+state = "MN"
+zip = ""
+map_url = ""
+
+
+[[district]]
+date = 2027-10-04
+host = "Mountain Iron 12 x 12"
+venue = "Messiah Lutheran Church"
+address = "8590 Enterprise Blvd"
+city = "Mountain Iron"
+state = "MN"
+zip = "55768"
+map_url = "https://www.google.com/maps/place/8590+Enterprise+Dr+S,+Mountain+Iron,+MN+55768/"
+
+[[district]]
+date = 2027-11-02
+host = "Aurora Big Book"
+venue = "Community United Methodist Church"
+address = "110 East 4th Avenue North"
+city = "Aurora"
+state = "MN"
+zip = "55705"
+map_url = "https://www.google.com/maps/place/United+Methodist+Church-Aurora/@47.5311221,-92.2349387,884m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a56446d7d6f251:0x36320934da06a3bd!8m2!3d47.5311221!4d-92.2349387!16s%2Fg%2F1tdykvw4?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+
+[[district]]
+date = 2027-12-01
+host = "Lake Vermilion 12x12"
+venue = "Immanuel Lutheran"
+address = "304 Spruce St"
+city = "Tower"
+state = "MN"
+zip = "55790"
+map_url = "https://www.google.com/maps/place/Immanuel+Lutheran+Church/@47.8059533,-92.2773465,880m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a513f0e0611a89:0x992fc4696855e01!8m2!3d47.8059533!4d-92.2747716!16s%2Fg%2F1wt3n175?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
+
+
+# host = "Pike Sandy"
+# venue = "Pike Town Hall"
+# address = "6862 Co Hwy 68"
+# city = "Embarrass"
+# state = "MN"
+# zip = "55732"
+# map_url = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
+
+# host = "Biwabik Sunday Night"
+# venue = "United Church of Christ"
+# address = "501 Main St"
+# city = "Biwabik"
+# state = "MN"
+# zip = "55708"
+# map_url = "https://maps.app.goo.gl/MGNs1tQksocr5tcTA"
+
+# host = "Virginia Friday Night Open"
+# venue = "St. Paul's Episcopal Church"
+# address = "231 3rd St S"
+# city = "Virginia"
+# state = "MN"
+# zip = "55792"
+# map_url = "https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6"

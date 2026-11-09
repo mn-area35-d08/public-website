@@ -106,6 +106,27 @@ The location and day of the week changes each month.
 | Fri Nov 6  | Aurora Big Book          | Community United Methodist Church, 110 E 4th Ave N, Aurora, MN 55705 |
 | Mon Dec 7  | Lake Vermilion 12×12     | Immanuel Lutheran, 304 Spruce St, Tower MN 55790                     |
 
+## 2027 District Monthly Meetings
+
+District 8 holds a **Committee Meeting at 6:30 PM** followed by the
+**General District Committee Meeting at 7:00 PM**.
+The location and day of the week changes each month.
+
+| Date       | Host Group               | Location                                                              |
+| ---------- | ------------------------ | --------------------------------------------------------------------- |
+| Tue Jan 5  | TBD                      |                                                                       |
+| Wed Feb 3  | Ely Monday Women's       | LedgeRock Community Church, 1515 E Camp St, Ely MN 55731              |
+| Thu Mar 4  | Cook Sunday Night        | Trinity Lutheran Church, 231 2nd St E, Cook MN 55723                  |
+| Fri Apr 12 | Ely Happy, Joyous & Free | First Presbyterian, 226 E Harvey St, Ely MN 55731                     |
+| Mon May 3  | Gilbert Tuesday Night    | St. Joseph's Catholic, 515 Summit St N, Gilbert MN 55741              |
+| Tue Jun 1  | TBD                      |                                                                       |
+| Wed Jul 7  | TBD                      |                                                                       |
+| Thu Aug 5  | Virginia Back to Basics  | Peace United Methodist, 303 S 9th Ave W, Virginia MN 55792            |
+| Fri Sep 3  | TBD                      |                                                                       |
+| Mon Oct 4  | Mountain Iron 12 x 12    | Messiah Lutheran Church, 8590 Enterprise Blvd, Mountain Iron MN 55768 |
+| Tue Nov 2  | Aurora Big Book          | United Methodist Church, 110 E 4th Ave N, Aurora, MN 55705            |
+| Wed Dec 1  | Lake Vermilion 12×12     | Immanuel Lutheran, 304 Spruce St, Tower MN 55790                      |
+
 ## Area and Sister Sites
 
 - [Area 35](https://www.area35.org/) - Northern Minnesota
