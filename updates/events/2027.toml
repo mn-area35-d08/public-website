@@ -44,8 +44,11 @@ date_start = 2027-03-05
 date_end = 2027-03-07
 time = "Fri-Sun Conference"
 name = "West Central Regional Service Conference"
+venue = "Breezy Point Resort"
+address = "9252 Breezy Point Dr"
 city = "Breezy Point"
 state = "MN"
+zip = "56472"
 info = "District 8 hospitality volunteers"
 flyer_url = "https://www.area35.org/wp-content/uploads/2026/02/WCRAASC-Save-the-Date-Flyer-2027.pdf"
 
@@ -57,12 +60,15 @@ name = "Area 35 Spring Assembly"
 venue = "Barker's Island Inn"
 city = "Superior"
 state = "WI"
+zip = "54880"
+info = "Sat 9AM Registration, 10 AM start. Sunday 9 am start."
 
 [[special]]
 date_start = 2027-04-30
 name = "District 8 PI Luncheon"
 city = "Mountain Iron"
 state = "MN"
+info = "District 8 hospitality volunteers needed. Contact delegate@area35.org or alt_delegate@area35.org."
 
 [[special]]
 date_start = 2027-05-22
