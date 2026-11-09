@@ -24,13 +24,13 @@ The following pages rebuild themselves without any action from the web manager:
 ## Manually Update These When Things Change
 
 | What changed                              | File to edit (update year as needed) |
-| ----------------------------------------- | ------------------------------ |
-| Weekly meeting added, removed, or changed | `updates/meetings.toml`        |
-| New special event or district meeting     | `updates/events/2026.toml`     |
-| Officer or chair name/phone/email         | `updates/contact-us/2026.toml` |
-| Resource link added or changed            | `resources/index.html`         |
-| Form link added or changed                | `forms/index.html`             |
-| Contribution mailing address              | `contribute/index.html`        |
+| ----------------------------------------- | ------------------------------------ |
+| Weekly meeting added, removed, or changed | `updates/meetings.toml`              |
+| New special event or district meeting     | `updates/events/2026.toml`           |
+| Officer or chair name/phone/email         | `updates/contact-us/2026.toml`       |
+| Resource link added or changed            | `resources/index.html`               |
+| Form link added or changed                | `forms/index.html`                   |
+| Contribution mailing address              | `contribute/index.html`              |
 
 ## How To Edit a File on GitHub
 
@@ -68,7 +68,7 @@ and `contact/index.html`. Review them in a browser before committing.
 
 ## Repository Layout
 
-```
+```text
 _build/
   build.py              # build script (runs automatically via GitHub Actions)
   templates/
@@ -96,6 +96,6 @@ treasurer/              # treasurer uploads PDF reports here directly
 
 updates/
   meetings.toml         # weekly AA meetings (edit to add/change/remove)
-  events/2026.toml      # special events and district meetings
-  contact-us/2026.toml  # officers, chairs, web managers
+  events/               # special events and district meetings (annual files)
+  contact-us/           # officers, chairs, web managers (annual files)
 ```
