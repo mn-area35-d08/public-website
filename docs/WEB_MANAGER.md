@@ -58,6 +58,10 @@ git pull # Always pull first
 uv python pin 3.14
 uv run python _build/build.py
 
+# lint and fix python files in _build/
+uvx ruff check --fix _build
+uvx ruff format _build
+
 git add -A
 git commit -m "update"
 git push -u origin main
@@ -79,7 +83,7 @@ _build/
     contact.html        # contact page template
 
 .github/workflows/
-  build.yml             # rebuilds site on data change and nightly
+  update-website.yml    # rebuilds site on data change and nightly
   weekly-web-check.yml  # creates weekly reminder issue
 
 contact/                # generated - do not edit directly

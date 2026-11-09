@@ -2,7 +2,15 @@
 
 from typing import Any
 
-from build_shared import CONTACT_DIR, OUT_CONTACT, esc, load_toml, load_template, render, wrap_page
+from build_shared import (
+    CONTACT_DIR,
+    OUT_CONTACT,
+    esc,
+    load_template,
+    load_toml,
+    render,
+    wrap_page,
+)
 
 
 def _email_cell(entry: dict[str, Any]) -> str:
@@ -77,7 +85,8 @@ def build_contact() -> None:
         wrap_page(
             "Contact Us | East Range, MN D8 AA",
             "Contact East Range District 8 AA officers and chairs",
-            "Contact Us", main,
+            "Contact Us",
+            main,
         ),
         encoding="utf-8",
     )

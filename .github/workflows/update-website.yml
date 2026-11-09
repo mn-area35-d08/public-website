@@ -10,14 +10,14 @@
 # WHY: Volunteers edit TOML files; generated HTML is updated automatically.
 
 # Name that appears in the GitHub Actions tab.
-name: Build Website
+name: Update Website
 
 on:
   push:
     paths:
       - "updates/**"
       - "_build/**"
-      - ".github/workflows/build-website.yml"
+      - ".github/workflows/update-website.yml"
   schedule:
     - cron: "0 6 * * *"   # 6:00 UTC = midnight Central (adjust for DST)
   workflow_dispatch: # allow manual trigger from GitHub Actions UI

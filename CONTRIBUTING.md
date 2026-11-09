@@ -25,23 +25,22 @@ Go to our [public-website repository](https://github.com/mn-area35-d08/public-we
 5. Click **Commit changes**.
 6. Enter a short description of your changes and commit/save.
 
-That's it!
 The website [meetings page](https://mn-area35-d08.github.io/public-website/meetings/)
 will update automatically based on the new information.
 Allow about 10 minutes for the change to take effect.
 
-### Meetings: Update Example
+### Meetings: Example
 
-For example, to change the Orr Tuesday Night meeting from 8 pm to 7 pm.
+For example, to change the Orr Tuesday Night meeting time.
 
-1. Open [updates/meeting.toml](./updates/meetings.toml).
+1. Open [updates/meetings.toml](https://github.com/mn-area35-d08/public-website/blob/main/updates/meetings.toml).
 2. Click the pencil icon (Edit this file).
 3. Scroll to Tuesday and find the Orr meeting information:
 
    ```toml
    [[meeting]]
    day     = "Tuesday"
-   time    = "8:00pm"
+   time    = "7:00pm"
    name    = "Orr Tuesday Night"
    type    = "Closed"
    venue   = "Holy Cross Church"
@@ -51,16 +50,21 @@ For example, to change the Orr Tuesday Night meeting from 8 pm to 7 pm.
    zip     = "55771"
    ```
 
-4. Change: "8:00pm" to "7:00pm".
+4. Change: "7:00pm" to "6:00pm" (or whatever the correct time is and be sure to put it in quotes).
 5. Click **Commit changes**.
 6. Enter a short description of your changes
-   (e.g., `Change Orr Tuesday meeting to 7 pm`) and commit/save.
+   (e.g., `Change Orr Tuesday meeting time`) and commit/save.
 
 ---
 
 ## Events: Add a New Event
 
-1. Open [2027.toml](public-website/events/2027.toml).
+Events have one data file per year.
+The exact file will depend on the year of the event.
+
+For example, if editing a 2027 event:
+
+1. Open [events/2027.toml](https://github.com/mn-area35-d08/public-website/blob/main/updates/events/2027.toml).
 2. Click the pencil icon (Edit this file).
 3. Find the event just before the one you want to add.
 4. Copy and paste the prior event information block to make a new one.
@@ -68,38 +72,56 @@ For example, to change the Orr Tuesday Night meeting from 8 pm to 7 pm.
 6. Click **Commit changes**.
 7. Enter a short description (e.g., `Added new Jan 14 event`) and commit/save.
 
-That's it!
 The website [events page](https://mn-area35-d08.github.io/public-website/events/)
 will update automatically based on the new information.
 Allow about 10 minutes for the change to take effect.
 
-### Events: Add Example
+### Events: Example
 
 For example, to add a new event.
 
-1. Open [updates/meeting.toml](./updates/meetings.toml).
-
-2. Scroll to Tuesday and find the Orr meeting information:
+1. Open [events/2027.toml](https://github.com/mn-area35-d08/public-website/blob/main/updates/events/2027.toml).
+2. Click the pencil icon (Edit this file).
+3. Find the event just before the one you want to add.
+4. Copy and paste the prior event information block to make a new one, for example:
 
    ```toml
-   [[meeting]]
-   day     = "Tuesday"
-   time    = "8:00pm"
-   name    = "Orr Tuesday Night"
-   type    = "Closed"
-   venue   = "Holy Cross Church"
-   address = "10696 Shady Grove Lane"
-   city    = "Orr"
-   state   = "MN"
-   zip     = "55771"
+   [[special]]
+   date_start = 2027-03-05
+   date_end   = 2027-03-07
+   time       = "Fri-Sun Conference"
+   name       = "West Central Regional Service Conference"
+   city       = "Breezy Point"
+   state      = "MN"
+   info       = "District 8 hospitality volunteers"
+   flyer_url = "https://www.area35.org/wp-content/uploads/2026/02/WCRAASC-Save-the-Date-Flyer-2027.pdf"
    ```
 
-3. Change: "8:00pm" to "7:00pm".
+5. Edit the new one to reflect the new event information.
+
+   ```toml
+   [[special]]
+   date_start = 2027-04-03
+   date_end   = 2027-04-04
+   time       = "Sat-Sun Assembly"
+   name       = "Area 35 Spring Assembly"
+   venue      = "Barker's Island Inn"
+   city       = "Superior"
+   state      = "WI"
+   ```
+
+6. Click **Commit changes**.
+7. Enter a short description (e.g., `Added new 2027 event`) and commit/save.
+
+The website [events page](https://mn-area35-d08.github.io/public-website/events/)
+will update automatically based on the new information.
+Allow about 10 minutes for the change to take effect.
 
 ---
 
 ## Other Website Changes
 
-For other updates, find the corresponding file, click the pencil icon, make your changes, and commit.
+For other updates, find the corresponding file,
+click the pencil icon, make your changes, and commit.
 
-GitHub automatically maintains the history of every change. No separate change log is required.
+GitHub automatically maintains the history of every change.

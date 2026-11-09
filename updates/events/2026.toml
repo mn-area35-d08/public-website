@@ -19,208 +19,208 @@
 
 [[special]]
 date_start = 2026-04-11
-time       = "7pm Speaker"
-name       = "Gilbert Tues Night Open Mtg - Celebrating 44th Year"
-venue      = "St. Joseph's Catholic Church"
-address    = "Summit & Louisiana"
-city       = "Gilbert"
-state      = "MN"
-info       = "Treats before, during & after"
+time = "7pm Speaker"
+name = "Gilbert Tues Night Open Mtg - Celebrating 44th Year"
+venue = "St. Joseph's Catholic Church"
+address = "Summit & Louisiana"
+city = "Gilbert"
+state = "MN"
+info = "Treats before, during & after"
 
 [[special]]
 date_start = 2026-04-24
-date_end   = 2026-04-25
-time       = "Fri ~5pm–10pm / Sat ~9:30am–8pm"
-name       = "1st Annual Came to Believe Big Book Workshop"
-venue      = "Lake Place Foundation"
-address    = "25704 CR 338"
-city       = "Bovey"
-state      = "MN"
-zip        = "55709"
+date_end = 2026-04-25
+time = "Fri ~5pm–10pm / Sat ~9:30am–8pm"
+name = "1st Annual Came to Believe Big Book Workshop"
+venue = "Lake Place Foundation"
+address = "25704 CR 338"
+city = "Bovey"
+state = "MN"
+zip = "55709"
 
 [[special]]
-date_start  = 2026-05-01
-date_end    = 2026-05-02
-time        = "5pm"
-name        = "54th Annual Iron Range Get Together"
-venue       = "Red Rock Inn"
-address     = "1402 East Howard"
-city        = "Hibbing"
-state       = "MN"
-flyer_url   = "https://eastrangedist8.com/wp-content/uploads/2026/01/Scan2026-01-11_112222.pdf"
+date_start = 2026-05-01
+date_end = 2026-05-02
+time = "5pm"
+name = "54th Annual Iron Range Get Together"
+venue = "Red Rock Inn"
+address = "1402 East Howard"
+city = "Hibbing"
+state = "MN"
+flyer_url = "https://eastrangedist8.com/wp-content/uploads/2026/01/Scan2026-01-11_112222.pdf"
 flyer_back_url = "https://eastrangedist8.com/wp-content/uploads/2026/01/Scan2026-01-11_112810.pdf"
 
 [[special]]
 date_start = 2026-06-07
-time       = "9:00am"
-name       = "Area 36 Committee Meeting"
-venue      = "Aitkin Alano Club"
-address    = "322 1st Ave NE"
-city       = "Aitkin"
-state      = "MN"
-map_url    = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
+time = "9:00am"
+name = "Area 36 Committee Meeting"
+venue = "Aitkin Alano Club"
+address = "322 1st Ave NE"
+city = "Aitkin"
+state = "MN"
+map_url = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
 
 [[special]]
 date_start = 2026-08-02
-time       = "9:00am"
-name       = "Area 36 Committee Meeting"
-venue      = "Aitkin Alano Club"
-address    = "322 1st Ave NE"
-city       = "Aitkin"
-state      = "MN"
-map_url    = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
+time = "9:00am"
+name = "Area 36 Committee Meeting"
+venue = "Aitkin Alano Club"
+address = "322 1st Ave NE"
+city = "Aitkin"
+state = "MN"
+map_url = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
 
 [[special]]
 date_start = 2026-10-03
-date_end   = 2026-10-04
-time       = "Sat-Sun Assembly"
-name       = "Fall Assembly"
-venue      = "TBD"
-address    = ""
-city       = ""
-state      = "MN"
-info       = "Flyer upcoming"
+date_end = 2026-10-04
+time = "Sat-Sun Assembly"
+name = "Fall Assembly"
+venue = "TBD"
+address = ""
+city = ""
+state = "MN"
+info = "Flyer upcoming"
 
 [[special]]
 date_start = 2026-10-12
-name       = "Pike Sandy Open Speaker Meeting"
-venue      = "Pike Town Hall"
-address    = "6862 Co Hwy 68"
-city       = "Embarrass"
-state      = "MN"
-zip        = "55732"
+name = "Pike Sandy Open Speaker Meeting"
+venue = "Pike Town Hall"
+address = "6862 Co Hwy 68"
+city = "Embarrass"
+state = "MN"
+zip = "55732"
 
 
 [[special]]
 date_start = 2026-12-06
-time       = "9:00am"
-name       = "Area 35 Committee Meeting"
-venue      = "Aitkin Alano Club"
-address    = "322 1st Ave NE"
-city       = "Aitkin"
-state      = "MN"
-map_url    = "https://www.google.com/maps/place/Aitkin+Alano+Club/@46.5353395,-93.7075045,1201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52b13bfe65687153:0xf19cf40c61cc89e1!8m2!3d46.5353395!4d-93.7049296!16s%2Fg%2F11c5s2kg1c?entry=ttu"
+time = "9:00am"
+name = "Area 35 Committee Meeting"
+venue = "Aitkin Alano Club"
+address = "322 1st Ave NE"
+city = "Aitkin"
+state = "MN"
+map_url = "https://www.google.com/maps/place/Aitkin+Alano+Club/@46.5353395,-93.7075045,1201m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52b13bfe65687153:0xf19cf40c61cc89e1!8m2!3d46.5353395!4d-93.7049296!16s%2Fg%2F11c5s2kg1c?entry=ttu"
 
 # ============================================================
 # District Monthly Meetings
 # ============================================================
 
 [[district]]
-date    = 2026-01-09
-host    = "Pike Sandy"
-venue   = "Pike Town Hall"
+date = 2026-01-09
+host = "Pike Sandy"
+venue = "Pike Town Hall"
 address = "6862 Co Hwy 68"
-city    = "Embarrass"
-state   = "MN"
-zip     = "55732"
+city = "Embarrass"
+state = "MN"
+zip = "55732"
 map_url = "https://maps.app.goo.gl/otKRhY1yy4pJifCy6"
 
 [[district]]
-date    = 2026-02-02
-host    = "Biwabik Sunday Night"
-venue   = "United Church of Christ"
+date = 2026-02-02
+host = "Biwabik Sunday Night"
+venue = "United Church of Christ"
 address = "501 Main St"
-city    = "Biwabik"
-state   = "MN"
-zip     = "55708"
+city = "Biwabik"
+state = "MN"
+zip = "55708"
 map_url = "https://maps.app.goo.gl/MGNs1tQksocr5tcTA"
 
 [[district]]
-date    = 2026-03-03
-host    = "Cook Sunday Night"
-venue   = "Trinity Lutheran Church"
+date = 2026-03-03
+host = "Cook Sunday Night"
+venue = "Trinity Lutheran Church"
 address = "231 2nd St E"
-city    = "Cook"
-state   = "MN"
-zip     = "55723"
+city = "Cook"
+state = "MN"
+zip = "55723"
 map_url = "https://maps.app.goo.gl/EDCQDGU3FS7kETDF9"
 
 [[district]]
-date    = 2026-04-08
-host    = "Virginia Friday Night Open"
-venue   = "St. Paul's Episcopal Church"
+date = 2026-04-08
+host = "Virginia Friday Night Open"
+venue = "St. Paul's Episcopal Church"
 address = "231 3rd St S"
-city    = "Virginia"
-state   = "MN"
-zip     = "55792"
+city = "Virginia"
+state = "MN"
+zip = "55792"
 map_url = "https://maps.app.goo.gl/KFdoZTv1CmEHGxCJ6"
 
 [[district]]
-date    = 2026-05-07
-host    = "Ely Happy, Joyous & Free"
-venue   = "First Presbyterian Church"
+date = 2026-05-07
+host = "Ely Happy, Joyous & Free"
+venue = "First Presbyterian Church"
 address = "226 E Harvey St"
-city    = "Ely"
-state   = "MN"
-zip     = "55731"
+city = "Ely"
+state = "MN"
+zip = "55731"
 map_url = "https://maps.app.goo.gl/TDRmFuT5mg97UQR59"
 
 [[district]]
-date    = 2026-06-12
-host    = "Ely Monday Women's"
-venue   = "LedgeRock Community Church"
+date = 2026-06-12
+host = "Ely Monday Women's"
+venue = "LedgeRock Community Church"
 address = "1515 E Camp St"
-city    = "Ely"
-state   = "MN"
-zip     = "55731"
+city = "Ely"
+state = "MN"
+zip = "55731"
 map_url = "https://maps.app.goo.gl/K3CqdLvKVLuaQB679"
 
 [[district]]
-date    = 2026-07-06
-host    = "Virginia Back to Basics"
-venue   = "Peace United Methodist Church"
+date = 2026-07-06
+host = "Virginia Back to Basics"
+venue = "Peace United Methodist Church"
 address = "303 S 9th Ave W"
-city    = "Virginia"
-state   = "MN"
-zip     = "55792"
+city = "Virginia"
+state = "MN"
+zip = "55792"
 map_url = "https://maps.app.goo.gl/knTNi4tG57swtMXK6"
 
 [[district]]
-date    = 2026-08-04
-host    = "Virginia Friday Night Open"
-venue   = "St. Paul's Episcopal Church"
+date = 2026-08-04
+host = "Virginia Friday Night Open"
+venue = "St. Paul's Episcopal Church"
 address = "231 3rd St S"
-city    = "Virginia"
-state   = "MN"
-zip     = "55792"
+city = "Virginia"
+state = "MN"
+zip = "55792"
 map_url = "https://www.google.com/maps/place/St+Paul's+Episcopal+Church/@47.5206368,-92.53693,885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a55095bfd182e9:0x9d20576bfe5cbf63!8m2!3d47.5206368!4d-92.5343551!16s%2Fg%2F1tk1ypd9?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
-date    = 2026-09-09
-host    = "Gilbert Tuesday Night"
-venue   = "St. Joseph's Catholic Church"
+date = 2026-09-09
+host = "Gilbert Tuesday Night"
+venue = "St. Joseph's Catholic Church"
 address = "515 Summit St N"
-city    = "Gilbert"
-state   = "MN"
-zip     = "55741"
+city = "Gilbert"
+state = "MN"
+zip = "55741"
 map_url = "https://www.google.com/maps/place/St+Joseph's+Church/@47.4843957,-92.4766922,885m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a5599e7316dfcd:0xf25b8484951095b!8m2!3d47.4843957!4d-92.4741173!16s%2Fg%2F1tcykpb9?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
-date    = 2026-10-08
-host    = "Virginia Friday Night Open"
-venue   = "St. Paul's Episcopal Church"
+date = 2026-10-08
+host = "Virginia Friday Night Open"
+venue = "St. Paul's Episcopal Church"
 address = "231 3rd St S"
-city    = "Virginia"
-state   = "MN"
-zip     = "55792"
+city = "Virginia"
+state = "MN"
+zip = "55792"
 map_url = "https://www.google.com/maps/search/St+Paul's+Episcopal+Church/@47.1614308,-92.6349037,114003m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
-date    = 2026-11-06
-host    = "Aurora Big Book"
-venue   = "Community United Methodist Church"
+date = 2026-11-06
+host = "Aurora Big Book"
+venue = "Community United Methodist Church"
 address = "110 East 4th Avenue North"
-city    = "Aurora"
-state   = "MN"
-zip     = "55705"
+city = "Aurora"
+state = "MN"
+zip = "55705"
 map_url = "https://www.google.com/maps/place/United+Methodist+Church-Aurora/@47.5311221,-92.2349387,884m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a56446d7d6f251:0x36320934da06a3bd!8m2!3d47.5311221!4d-92.2349387!16s%2Fg%2F1tdykvw4?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
 
 [[district]]
-date    = 2026-12-07
-host    = "Lake Vermilion 12x12"
-venue   = "Immanuel Lutheran"
+date = 2026-12-07
+host = "Lake Vermilion 12x12"
+venue = "Immanuel Lutheran"
 address = "304 Spruce St"
-city    = "Tower"
-state   = "MN"
-zip     = "55790"
+city = "Tower"
+state = "MN"
+zip = "55790"
 map_url = "https://www.google.com/maps/place/Immanuel+Lutheran+Church/@47.8059533,-92.2773465,880m/data=!3m2!1e3!4b1!4m6!3m5!1s0x52a513f0e0611a89:0x992fc4696855e01!8m2!3d47.8059533!4d-92.2747716!16s%2Fg%2F1wt3n175?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"

@@ -19,72 +19,75 @@
 
 [[special]]
 date_start = 2027-01-09
-date_end   = 2027-01-09
-time       = "7:00 pm"
-name       = "Cook Sunday Night Big Book Open Speaker Meeting"
-venue      = "Trinity Lutheran Church"
-address    = "231 2nd Street S.E."
-city       = "Cook"
-state      = "MN"
-zip        = "55723"
+date_end = 2027-01-09
+time = "7:00 pm"
+name = "Cook Sunday Night Big Book Open Speaker Meeting"
+venue = "Trinity Lutheran Church"
+address = "231 2nd Street S.E."
+city = "Cook"
+state = "MN"
+zip = "55723"
 flyer_url = "2027-01-09-cook-open-7PM/AA_OPEN_SPEAKER_MEETING_flyer_2027.pdf"
 
 [[special]]
 date_start = 2027-01-16
-date_end   = 2027-01-17
-time       = "Sat-Sun Workshop"
-name       = "Area 35 Winter Workshop"
-city       = "Alexandria"
-state      = "MN"
-zip        = "56308"
+date_end = 2027-01-17
+time = "Sat-Sun Workshop"
+name = "Area 35 Winter Workshop"
+city = "Alexandria"
+state = "MN"
+zip = "56308"
 flyer_url = "https://www.area35.org/wp-content/uploads/2026/08/2027-January-Workshop-flyer-2.pdf"
 
 [[special]]
 date_start = 2027-03-05
-date_end   = 2027-03-07
-time       = "Fri-Sun Conference"
-name       = "West Central Regional Service Conference"
-city       = "Breezy Point"
-state      = "MN"
-info       = "District 8 hospitality volunteers"
+date_end = 2027-03-07
+time = "Fri-Sun Conference"
+name = "West Central Regional Service Conference"
+city = "Breezy Point"
+state = "MN"
+info = "District 8 hospitality volunteers"
 flyer_url = "https://www.area35.org/wp-content/uploads/2026/02/WCRAASC-Save-the-Date-Flyer-2027.pdf"
 
 [[special]]
 date_start = 2027-04-03
-date_end   = 2027-04-04
-time       = "Sat-Sun Assembly"
-name       = "Area 35 Spring Assembly"
-venue      = "Barker's Island Inn"
-city       = "Superior"
-state      = "WI"
+date_end = 2027-04-04
+time = "Sat-Sun Assembly"
+name = "Area 35 Spring Assembly"
+venue = "Barker's Island Inn"
+city = "Superior"
+state = "WI"
 
 [[special]]
 date_start = 2027-04-30
-name       = "District 8 PI Luncheon"
-city       = "Mountain Iron"
-state      = "MN"
+name = "District 8 PI Luncheon"
+city = "Mountain Iron"
+state = "MN"
 
 [[special]]
 date_start = 2027-05-22
-name       = "Tri-District Workshop"
-venue      = "TBD"
-city       = "TBD"
-state      = "MN"
-info       = "Hosted by District 8"
+name = "Tri-District Workshop"
+venue = "TBD"
+city = "TBD"
+state = "MN"
+info = "Hosted by District 8"
 
 [[special]]
 date_start = 2027-06-12
-name       = "Founder's Day Celebration"
-info       = "Hosted by District 8"
+name = "Founder's Day Celebration"
+info = "Hosted by District 8"
 
 [[special]]
 date_start = 2027-08-06
-name       = "46th Annual Keep It Simple Weekend"
-venue      = "Camp Chicagami, South of Eveleth, MN"
-city       = "TBD"
-state      = "MN"
-info       = "Speakers, Meetings, Fellowship"
-flyer_url = ""
+date_end = 2027-08-08
+name = "46th Annual Keep It Simple Weekend"
+venue = "Camp Chicagami"
+address = "3755 Scout Camp Rd"
+city = "Eveleth"
+state = "MN"
+zip = "55734"
+info = "Speakers, Meetings, Fellowship"
+flyer_url = "https://github.com/mn-area35-d08/public-website/blob/main/events/2027-08/2_Save%20the%20Date%20Flyer.pdf"
 
 # ============================================================
 # District Monthly Meetings
