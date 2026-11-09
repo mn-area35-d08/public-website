@@ -7,11 +7,11 @@ The following can be configured and added to the `contact-us` page as needed.
 ```html
     <!-- ============================================================ -->
     <!-- Contact Form                                                  -->
-    <!-- Uses Formspree — free static form service, no server needed. -->
+    <!-- Uses Formspree free static form service, no server needed.    -->
     <!--                                                               -->
     <!-- To activate:                                                  -->
     <!--   1. Go to https://formspree.io and sign up (free).          -->
-    <!--   2. Create a new form — copy the form ID it gives you.      -->
+    <!--   2. Create a new form - copy the form ID it gives you.      -->
     <!--   3. Replace YOUR_FORM_ID in the action URL below.           -->
     <!--   4. Formspree emails submissions to the address you choose.  -->
     <!--                                                               -->

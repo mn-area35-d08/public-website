@@ -1,0 +1,115 @@
+
+# ============================================================
+# .github/workflows/update-github-actions.yml (Action Pin Updater)
+# ============================================================
+# Updated: 2026-11-09
+
+# WHY: Keep the tools used by this repository's actions current.
+# OBS: Checks for newer versions once a month.
+# OBS: Makes available updates and saves the changes automatically.
+# OBS: Can also be run manually from the GitHub Actions tab.
+# OBS: This requires editing files in the repo and 
+#      therefore additional security measures are required.
+
+# REQ: Uses the organization's shared GITHUB_ACTION_UPDATE_TOKEN key.
+# REQ: The key must be renewed before it expires.
+
+# OBS: A fine-grained personal access token belongs to the GitHub account (e.g. Web Manager)that creates it. 
+# OBS: When that person's account or access changes, District 8 may need to replace the token.
+# OBS: The token must be renewed before it expires.
+
+# HOW: Web Manager will create a fine-grained personal access token:
+#   1. GitHub profile photo / Settings / Developer settings.
+#   2. Personal access tokens / Fine-grained tokens.
+#   3. Click Generate new token.
+#   4. Token name: District 8 GitHub Actions Updater.
+#   5. Resource owner: mn-area35-d08 
+#   6. Expiration: Select desired expiration date.
+#   7. Repository access: All repositories.
+#   8. Click + Add Permissions. Check Contents and Workflows.
+#   9. Change/verify Contents dropdown says "Access:Read and write"
+#  10. Change/verify Workflows dropdown says "Access: Read and write"
+#  11. Click Generate token. Click Generate Token on the popup window.
+#  12. Copy the generated token immediately.
+#
+# HOW: Web Manager will save it as an organization secret:
+#   1. Open github.com/organizations/mn-area35-d08/settings/secrets/actions.
+#   2. Click New organization secret.
+#   3. Name: GITHUB_ACTION_UPDATE_TOKEN
+#   4. Value: Paste the generated token.
+#   5. Repository access: Public repositories.
+#   6. Click Add secret.
+#
+# OBS: Reuse this secret across authorized organization repositories.
+# OBS: Renew the token and update the organization secret before expiration.
+# OBS: Organization approval may be required for the token.
+# OBS: Never commit the token to any repository.
+
+
+# Name appears in the GitHub Actions tab.
+name: Update GitHub Actions
+
+on:
+  workflow_dispatch: # WHY: Allow manual updates from the Actions tab.
+  schedule:
+    - cron: "17 8 1 * *" # WHY: Run monthly on the first day at 08:17 UTC.
+
+concurrency:
+  # WHY: Prevent overlapping action-update runs.
+  group: update-action-pins
+  cancel-in-progress: false
+
+permissions:
+  contents: write # WHY: Workflow needs write access to commit workflow updates back to main.
+
+jobs:
+  update:
+    runs-on: ubuntu-latest # WHY: Linux runner supports uv and gha-tools.
+    timeout-minutes: 20 # WHY: Prevent stalled update jobs.
+
+    steps:
+
+      # ============================================================
+      # A) ASSEMBLE: Checkout code and set up environment
+      # ============================================================
+              
+      - name: A1) Checkout repository code # zizmor: ignore[artipacked] Checkout credentials required for git push.
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_ACTION_UPDATE_TOKEN }}
+        # WHY: Use organization token to update workflow files.
+
+      - name: A2) Install uv
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        # WHY: Provide uvx without installing project dependencies.
+
+      # ============================================================
+      # B) BASIC UPDATES: Update and pin GitHub Actions
+      # ============================================================
+
+      - name: B1) Update and pin GitHub Actions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          uvx gha-tools autoupdate --pin=all --write .github/workflows
+        # WHY: Update action references to current SHA-pinned versions.
+
+      - name: B2) Commit workflow changes as needed
+        run: |
+          git diff --check
+
+          git add -- .github/workflows
+
+          if git diff --cached --quiet; then
+            echo "All action pins are current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "chore: update GitHub Action pins [skip ci]"
+          git push origin HEAD:main
+        # WHY: Commit only workflow files when changes exist.
+        # OBS: Non-fast-forward pushes fail rather than overwrite newer edits.

@@ -53,7 +53,7 @@ def build_contact() -> None:
     print("Building contact page…")
     year_files = sorted(CONTACT_DIR.glob("*.toml"))
     if not year_files:
-        print("  WARNING: no TOML files found in updates/contact-us/ — skipped")
+        print("  WARNING: no TOML files found in updates/contact-us/, skipped")
         return
 
     # Earlier year files remain as historical records.

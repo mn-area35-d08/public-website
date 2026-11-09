@@ -1,0 +1,103 @@
+# updates/contact-us/2026.toml
+# ============================================================
+# East Range D8 AA Contact Us
+# ============================================================
+# To update a contact: edit the corresponding [[entry]] block.
+# Use "N/A" when an email is not available.
+#
+# Groups:
+#   "District Officers"
+#   "District Chairs"
+#   "Web Managers"
+
+# ============================================================
+# District Officers
+# ============================================================
+
+[[entry]]
+group    = "District Officers"
+position = "DCM"
+email    = "dcm8@area35.org"
+
+[[entry]]
+group    = "District Officers"
+position = "Alt. DCM"
+email    = "spotts409@icloud.com"
+
+[[entry]]
+group       = "District Officers"
+position    = "Secretary"
+email       = "henlee728@gmail.com"
+
+[[entry]]
+group       = "District Officers"
+position    = "Treasurer"
+email       = "dist8area35treasurer@gmail.com"
+reports_url = "../treasurer/"
+
+# ============================================================
+# District Chairs
+# ============================================================
+
+[[entry]]
+group    = "District Chairs"
+position = "Archives"
+email    = "dist8area35archives@gmail.com"
+
+[[entry]]
+group    = "District Chairs"
+position = "Corrections"
+email    = "Swansond428@gmail.com"
+
+[[entry]]
+group    = "District Chairs"
+position = "Literature / Grapevine"
+email    = "dougscheibe@gmail.com"
+
+[[entry]]
+group    = "District Chairs"
+position = "PI / CPC"
+email    = "elythursdaynoonaa@gmail.com"
+
+[[entry]]
+group    = "District Chairs"
+position = "Treatment"
+email    = "N/A"
+
+[[entry]]
+group    = "District Chairs"
+position = "Alt. Treatment"
+email    = "dunnomnick@gmail.com"
+
+[[entry]]
+group    = "District Chairs"
+position = "Web Manager"
+email    = "dist8area35webmanager@gmail.com"
+
+# ============================================================
+# Web Managers
+# ============================================================
+
+[[entry]]
+group    = "Web Managers"
+position = "East Range Web Manager"
+name     = "Web Manager"
+email    = "dist8area35webmanager@gmail.com"
+
+[[entry]]
+group    = "Web Managers"
+position = "Hibbing Web Manager"
+name     = "Phyllis"
+email    = "N/A"
+
+[[entry]]
+group    = "Web Managers"
+position = "Committee Member"
+name     = "Brandon"
+email    = "N/A"
+
+[[entry]]
+group    = "Web Managers"
+position = "Committee Member"
+name     = "Diane"
+email    = "dianer@northlc.com"

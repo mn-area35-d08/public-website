@@ -1,0 +1,63 @@
+# ============================================================
+# .github/workflows/update-website.yml
+# ============================================================
+# Updated: 2026-11-09
+
+# WHY: Automatically rebuild website pages from TOML data files.
+# OBS: Generates meetings, events, and contact pages from updates/.
+# OBS: Runs when data or build scripts change, nightly, or manually.
+# OBS: Nightly builds advance "today" so past events hide automatically.
+# WHY: Volunteers edit TOML files; generated HTML is updated automatically.
+
+# Name that appears in the GitHub Actions tab.
+name: Build Website
+
+on:
+  push:
+    paths:
+      - "updates/**"
+      - "_build/**"
+      - ".github/workflows/build-website.yml"
+  schedule:
+    - cron: "0 6 * * *"   # 6:00 UTC = midnight Central (adjust for DST)
+  workflow_dispatch: # allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write    # needed to commit generated HTML back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # WHY: Stable runner for lychee-action + bash steps.
+    timeout-minutes: 10 # WHY: Prevent hanging jobs.
+
+    steps:
+
+      # ============================================================
+      # A) ASSEMBLE: Checkout code and set up environment
+      # ============================================================
+
+      - name: A1) Check out repo # zizmor: ignore[artipacked] Checkout credentials required for git push.
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: A2) Set up Python 3.14
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: "3.14"
+
+      # ============================================================
+      # B) BUILD: Generate website pages from TOML data
+      # ============================================================
+
+      - name: B1) Run build script
+        run: python _build/build.py
+
+      - name: B2) Commit generated HTML (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meetings/index.html events/index.html
+          # Only commit if something actually changed
+          git diff --cached --quiet || git commit -m "chore: rebuild HTML from data [skip ci]"
+          git push
+        # WHY: Commit generated HTML only when changes exist.
+        # OBS: Non-fast-forward pushes fail rather than overwrite newer edits.

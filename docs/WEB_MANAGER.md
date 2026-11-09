@@ -44,8 +44,9 @@ The following pages rebuild themselves without any action from the web manager:
 
 Page structure (header, footer, nav) is controlled by files in `_build/templates/`.
 Edit these if the site branding, navigation, or footer text needs to change.
-Do not edit the generated output files in `meetings/`, `events/`, or `contact/` directly —
-those are overwritten every time the build runs.
+
+Do **not** edit generated output files in `meetings/`, `events/`, or `contact/`.
+Those pages are generated automatically from the data files in `update`.
 
 ## Test the Build Locally
 

@@ -95,7 +95,7 @@ def build_events() -> None:
 
     if not year_files:
 
-        print("  WARNING: no TOML files found in updates/events/ — skipped")
+        print("  WARNING: no TOML files found in updates/events/, skipped")
 
         return
 

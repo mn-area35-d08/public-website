@@ -28,7 +28,6 @@ email    = "spotts409@icloud.com"
 group       = "District Officers"
 position    = "Secretary"
 email       = "henlee728@gmail.com"
-reports_url = "../secretary/"
 
 [[entry]]
 group       = "District Officers"

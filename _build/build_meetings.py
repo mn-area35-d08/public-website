@@ -113,7 +113,7 @@ def build_meetings() -> None:
 
         else:
 
-            print(f"  WARNING: unknown day '{day}' in meetings.toml — skipped")
+            print(f"  WARNING: unknown day '{day}' in meetings.toml, skipped")
 
     # Day navigation links
 
